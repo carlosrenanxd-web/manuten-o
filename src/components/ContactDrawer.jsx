@@ -3,7 +3,7 @@ import { X, Send } from "lucide-react";
 import { useContactDrawer } from "../context/ContactDrawerContext";
 
 const siteConfig = {
-    whatsappNumber: "55849988968082",
+    whatsappNumber: "5584988968082",
     phone: "(84) 98896-8082",
 };
 
