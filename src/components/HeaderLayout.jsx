@@ -15,9 +15,11 @@ const siteConfig = {
 
 const links = [
   { href: "/", label: "Inicio" },
+  { href: "/servicos/consultoria", label: "Consultoria" },
   { href: "/servicos/hidraulica", label: "Hidraulica" },
   { href: "/servicos/eletrica", label: "Eletrica" },
   { href: "/servicos/pintura", label: "Pintura" },
+  { href: "/servicos/gas", label: "Gás" },
   { href: "/servicos/manutencao", label: "Manutencao" },
 ];
 

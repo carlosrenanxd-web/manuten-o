@@ -10,7 +10,7 @@ const siteConfig = {
     {
       code: "CON",
       icon: "ClipboardList",
-      title: "Consultoria água",
+      title: "Consultoria e diagnosticos",
       description: "Consultoria técnica especializada em economia e uso consciente da água, com diagnóstico de vazamentos, sugestões de melhorias hidráulicas e soluções sob medida para condomínios, residências e comércios.",
       link: "/servicos/consultoria",
     },
@@ -19,14 +19,14 @@ const siteConfig = {
       icon: "Droplets",
       title: "Serviços de Hidráulica",
       description: "Vazamentos, entupimentos, troca de registros e instalação de torneiras e chuveiros.",
-      link: "/servicos/hidraulica",
+      link: "/servicos/eletrica",
     },
     {
       code: "ELE",
       icon: "Zap",
       title: "Serviços de Elétrica",
       description: "Instalação, troca de disjuntores, tomadas e reparo de curto-circuito. Serviço seguro e dentro das normas.",
-      link: "/servicos/eletrico",
+      link: "/servicos/eletrica",
     },
     {
       code: "PIN",
@@ -47,7 +47,7 @@ const siteConfig = {
       icon: "Wrench",
       title: "Serviços de Manutenção Preventiva e Corretiva",
       description: "Revisão periódica da casa ou reparo pontual de qualquer problema, antes que vire dor de cabeça.",
-      link: "/servicos/manuntencao",
+      link: "/servicos/manutencao",
     },
   ],
 };

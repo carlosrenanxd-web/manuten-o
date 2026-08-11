@@ -10,6 +10,8 @@ import ServicoHidraulica from "../pages/servicos/ServicoHidraulica";
 import ServicoEletrica from "../pages/servicos/ServicoEletrica";
 import ServicoPintura from "../pages/servicos/ServicoPintura";
 import ServicoManutencao from "../pages/servicos/ServicoManutencao";
+import ServicoGas from "../pages/servicos/ServicoGas";
+import ServicoConsultoria from "../pages/servicos/ServicoConsultoria";
 
 
 
@@ -22,9 +24,11 @@ export default function AppRoutes() {
           <Route path="/" element={<Home />} />
         </Route>
         <Route element={<LayoutPages />}>
+          <Route path="/servicos/consultoria" element={<ServicoConsultoria />} />
           <Route path="/servicos/hidraulica" element={<ServicoHidraulica />} />
           <Route path="/servicos/eletrica" element={<ServicoEletrica />} />
           <Route path="/servicos/pintura" element={<ServicoPintura />} />
+          <Route path="/servicos/gas" element={<ServicoGas />} />
           <Route path="/servicos/manutencao" element={<ServicoManutencao />} />
         </Route>
       </Routes>
