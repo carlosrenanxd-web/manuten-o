@@ -19,7 +19,7 @@ const siteConfig = {
       icon: "Droplets",
       title: "Serviços de Hidráulica",
       description: "Vazamentos, entupimentos, troca de registros e instalação de torneiras e chuveiros.",
-      link: "/servicos/eletrica",
+      link: "/servicos/hidraulica",
     },
     {
       code: "ELE",
