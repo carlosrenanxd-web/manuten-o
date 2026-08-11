@@ -4,7 +4,7 @@ import { useContactDrawer } from "../context/ContactDrawerContext";
 
 const siteConfig = {
     whatsappNumber: "5584998648492",
-    phone: "(84) 99864-8492",
+    phone: "(84) 98896-8082",
 };
 
 const servicos = [

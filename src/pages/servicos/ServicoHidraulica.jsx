@@ -35,7 +35,7 @@ const precos = [
 
 export default function ServicoHidraulica() {
     return (
-        <div className="bg-paper">
+        <div className="bg-paper pt-10">
             {/* Hero */}
             <section className="pb-20 py-20 sm:py-28">
                 <div className="max-w-6xl mx-auto px-5 sm:px-8">

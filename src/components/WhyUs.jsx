@@ -3,7 +3,7 @@ import { Timer, Search, ShieldCheck, Wallet } from "lucide-react";
 const icons = { Timer, Search, ShieldCheck, Wallet };
 
 const siteConfig = {
-  businessName: "CasaEmDia",
+  businessName: "Condominio em dia",
 
   whyUs: [
     {

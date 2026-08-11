@@ -1,7 +1,7 @@
 import { Wrench } from "lucide-react";
 
 const siteConfig = {
-  businessName: "CasaEmDia",
+  businessName: "Condominio em dia",
 };
 
 export default function Footer() {

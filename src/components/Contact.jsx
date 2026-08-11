@@ -2,9 +2,9 @@ import { Phone, Mail, MapPin } from "lucide-react";
 import ContactCTA from "./ContactCTA";
 
 const siteConfig = {
-  phone: "(84) 99864-8492",
-  email: "contato@casaemdia.com.br",
-  city: "sua cidade",
+  phone: "(84) 98896-8082",
+  email: "contato@condemdia.com.br",
+  city: "Natal-RN",
 };
 
 export default function Contact() {

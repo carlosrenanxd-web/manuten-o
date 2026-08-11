@@ -4,9 +4,9 @@ import { FaInstagram, FaFacebookF } from "react-icons/fa";
 import ContactCTA from "./ContactCTA";
 
 const siteConfig = {
-  businessName: "CasaEmDia",
-  email: "contato@casaemdia.com.br",
-  phone: "(11) 99999-9999",
+  businessName: "Condominio Em Dia",
+  email: "contato@condemdia.com.br",
+  phone: "(84) 98896-8082",
   social: {
     instagram: "https://instagram.com/casaemdia",
     facebook: "https://facebook.com/casaemdia",
@@ -32,7 +32,7 @@ export default function HeaderLayout() {
   }, []);
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 px-4">
+    <header className="fixed top-0 left-0 right-0 z-50">
       <div className={`bg-navy-900 overflow-hidden transition-all duration-300 ${scrolled ? "max-h-0 opacity-0" : "max-h-12 opacity-100"}`}>
         <div className="max-w-6xl mx-auto px-5 sm:px-8 h-9 flex items-center justify-center gap-6 text-xs text-navy-200">
           <a href={`mailto:${siteConfig.email}`} className="flex items-center gap-1.5 hover:text-signal-400 transition-colors">

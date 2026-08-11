@@ -1,8 +1,8 @@
 import ContactCTA from "./ContactCTA";
 
 const siteConfig = {
-  city: "sua cidade",
-  businessName: "CasaEmDia",
+  city: "Natal-RN",
+  businessName: "Condominio em dia",
   reviewsCount: "+80",
 };
 

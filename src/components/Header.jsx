@@ -4,9 +4,9 @@ import { FaInstagram, FaFacebookF } from "react-icons/fa";
 import ContactCTA from "./ContactCTA";
 
 const siteConfig = {
-  businessName: "CasaEmDia",
-  email: "contato@casaemdia.com.br",
-  phone: "(11) 99999-9999",
+  businessName: "Condominio Em Dia",
+  email: "contato@condemdia.com.br",
+  phone: "(84) 98896-8082",
   social: {
     instagram: "https://instagram.com/casaemdia",
     facebook: "https://facebook.com/casaemdia",
@@ -92,7 +92,7 @@ export default function Header() {
         </div>
 
         {open && (
-          <div className="lg:hidden bg-navy-800 rounded-2xl  border-navy-600/60 px-5 pb-6 pt-2">
+          <div className="lg:hidden bg-navy-800 rounded-2xl border-navy-600/60 px-5 pb-6 pt-2">
             <nav className="flex flex-col gap-1">
               {links.map((item) => (
                 <a key={item.href} href={item.href} onClick={() => setOpen(false)} className="py-3 text-navy-100 font-medium border-b border-navy-600/40 last:border-0">

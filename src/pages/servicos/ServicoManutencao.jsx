@@ -35,7 +35,7 @@ const precos = [
 
 export default function ServicoManutencao() {
     return (
-        <div className="bg-paper">
+        <div className="bg-paper pt-10">
             {/* Hero */}
             <section className="py-20 sm:py-28">
                 <div className="max-w-6xl mx-auto px-5 sm:px-8">
